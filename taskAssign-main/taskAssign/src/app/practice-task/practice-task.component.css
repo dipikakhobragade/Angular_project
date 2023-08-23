@@ -1,0 +1,24 @@
+.head{
+    background:rgb(88, 104, 158);
+    color: #f5f3f3;
+}
+.bodyy{
+    justify-content: center;
+    font-family: 'Playfair Display', serif;
+}
+tr{
+    border-bottom: 1px solid rgb(44, 146, 189);
+}
+/* .getcolor{
+      background-image: linear-gradient(rgb(228, 174, 162), rgb(228, 170, 170));
+    
+} */
+img{
+    width: 80px;
+}
+
+
+mat-option{
+    color: rgb(41, 81, 161);
+  
+}

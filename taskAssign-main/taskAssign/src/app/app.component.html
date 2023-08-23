@@ -1,0 +1,72 @@
+  <!-- <div> -->
+  <!--  -->
+  <!-- <input type="text"  name="" id="">
+
+  <div class="box">
+    User Name : <strong>{{userName}}</strong>
+    <br> <br>
+    <input type="text" placeholder="Updte user name" #uname>
+    <button (click)="updateUserName(uname)">Update Name</button>
+</div>
+
+   
+  </div>
+<div><button type="button"  (click)="method(task)">ADD TASK</button></div>
+-->
+<!-- 
+<form action="" [formGroup]="myform" (ngSubmit)="onsubmit()">
+<div>  <mat-label>Write the task</mat-label>
+</div>
+  <input type="text"  placeholder="Ex. Reading" value="ADD TASK" formControlName="addTask">
+<mat-form-field  style="margin-left: 122px;" class="example-full-width" style="margin-right:12px ;">
+ 
+  <div ><div><mat-label>Due date</mat-label></div>
+  <mat-datepicker-toggle [for]="myDatePicker" matSuffix></mat-datepicker-toggle>
+  <input matInput [matDatepicker]="myDatePicker">
+  <mat-datepicker #myDatePicker></mat-datepicker></div>
+</mat-form-field>
+
+<div class="form-group" formArrayName="add">
+  <button class="btn btn-light btn-sm mt-4 btn-add"  (click)="OnAddSkills()">
+    <i>+</i> Add More task
+</button>
+  <label ></label>
+  <div *ngIf="moretask">
+  <ng-container  *ngFor="let skill of myform.get('add').controls; index as i">
+      <input formControlName="{{i}}" type="text" class="form-control mt-2" placeholder="Add Skills">
+      <mat-form-field  style="margin-left: 122px;" class="example-full-width" style="margin-right:12px ;">
+        <div ><div><mat-label>Due date</mat-label></div>
+        <mat-datepicker-toggle [for]="myDatePicker" matSuffix></mat-datepicker-toggle>
+        <input formControlName="{{i}}" matInput formControlName="date" [matDatepicker]="myDatePicker">
+        <mat-datepicker #myDatePicker></mat-datepicker></div>
+      </mat-form-field>
+  </ng-container>
+
+  <!-- <ng-container *ngFor="let dates of myform.get('date2').controls; index as u" >
+  </ng-container> -->
+  <!-- </div> -->
+  
+
+<!-- </div> -->
+
+<!-- <div>
+  <button type="submit" (click)="postdata(date)" routerLink="home" #issubmited>Add task</button>
+</div></form> -->
+
+<!-- <app-home><ng-container *ngIf="alldata">
+  <table><thead>
+    <tr><th>Tasks</th><th>Due-Date</th></tr>
+  </thead>
+<tbody><tr><td>{{myform.get('addTask').value}}</td><td>{{myform.get('date').value  | date:'dd/MM/yyyy'}}</td>
+<td><button>edit</button></td><td><button type="button" (click)="removeTasks()">remove</button></td>
+</tr>
+<tr *ngIf="moretask"><td>{{myform.get('add').value[0]}}</td><td>{{myform.get('date2').value[1]}}</td><td><button type="button" (click)="removeTasks()">remove</button></td></tr> <tr *ngIf="moretask"><td>{{myform.get('add').value[1]}}</td><td></td>{{myform.get('date2').value[1]}}</tr> -->
+
+<!-- </tbody>
+</table>
+</ng-container>
+</app-home> -->
+<router-outlet></router-outlet> 
+
+<app-practice-task></app-practice-task>
+
